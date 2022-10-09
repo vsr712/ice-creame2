@@ -1,0 +1,123 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    opacity: 1;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    // transition: opacity var(--transition-dur-and-func);
+
+    &.is-hidden {
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+        scale: 0;
+    }
+}
+
+
+
+
+
+.modal-window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 56px);
+    min-height: 986px;
+    padding: 28px;
+
+    scale: 1;
+    // transition: scale var(--transition-dur-and-func);
+
+    background-color: #FCFCFC;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 2px solid #F8D24E;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:480px) and (max-width:767px) {
+    .modal-window {
+        width: 280px;
+
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .modal-window {
+        width: 568px;
+    }
+}
+
+.modal-window__close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    @extend %align;
+
+    width: 16px;
+    height: 16px;
+
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+    // transition: fill var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        fill: #F8D24E;
+
+    }
+}
+
+
+// .buy-modal {}
+
+// .modal-window__close-btn {}
+
+// .modal-window__close-icon {}
+
+// .modal-form__title {}
+
+// .modal-form {}
+
+// .chosen-product {}
+
+// .chosen-product__checkbox {}
+
+// .checkbox__item {}
+
+// .checkbox {}
+
+// .modal-form__field {}
+
+// .modal-form__input-wrapper {}
+
+// .modal-form__input {}
+
+// .modal-form__comment-field {}
+
+// .modal-form__comment {}
+
+// .modal-form__submit-btn {}
+
+// .button {}
+
+// .ingredients-modal {}
+
+// .composition {}
+
+// .composition__item {}
+
+// .composition__number-container {}
+
+// .ingredients__title {}
+
+// .ingredients__table {}

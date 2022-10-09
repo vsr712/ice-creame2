@@ -1,0 +1,9 @@
+$primary-text-color: #131313;
+
+
+
+  @mixin font($fw, $fs, $lh) {
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: calc($lh / $fs);
+}

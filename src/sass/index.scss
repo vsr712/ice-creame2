@@ -1,2 +1,12 @@
 @import './common';
-@import './example';
+@import './base/reset';
+@import './base/container';
+@import './utils/variables';
+@import './components/header';
+@import './components/products';
+@import './components/about';
+@import './components/advantages';
+@import './components/gallery';
+@import './components/customer-reviews';
+@import './components/contacts';
+@import './components/footer';
