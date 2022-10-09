@@ -7,17 +7,18 @@
         padding-top: 60px;
         padding-bottom: 60px;
         background-color: #F5F5F5;
-.products {
-        background-image: url("../images/produkt-bg.png");
+
+        .products {
+            background-image: url("../images/produсt-bg-mobile.png");
+        }
     }
-}
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
 screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .products {
-        background-image: url("../images/produkt-bg@2x.png");
+        background-image: url("../images/produсt-bg@2x-modile.png");
     }
 }
 
@@ -57,7 +58,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .products {
         padding-top: 60px;
         padding-bottom: 82px;
-        background-image: url("../images/produkt-bg.png");
+        background-image: url("../images/produсt-bg-tablet.png");
     }
 }
 
@@ -66,7 +67,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .products {
-        background-image: url("../images/produkt-bg@2x.png");
+        background-image: url("../images/produсt-bg@2x-tablet.png");
     }
 }
 
@@ -91,7 +92,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .products {
         padding-top: 60px;
         padding-bottom: 82px;
-        background-image: url("../images/produkt-bg.png");
+        background-image: url("../images/produсt-bg-desktop.png");
     }
 }
 
@@ -100,7 +101,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 screen and (min-resolution: 192dpi) and (min-width: 1200px),
 screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .products {
-        background-image: url("../images/produkt-bg@2x.png");
+        background-image: url("../images/produсt-bg@2x-desktop.png");
     }
 }
 
