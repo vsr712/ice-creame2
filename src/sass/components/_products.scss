@@ -6,22 +6,26 @@
     .products {
         padding-top: 60px;
         padding-bottom: 60px;
-        background-image: url("../images/bg-products.png");
+        background-color: #F5F5F5;
+.products {
+        background-image: url("../images/produkt-bg.png");
     }
-
-    .products__container {
-        max-width: 320px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+}
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
 screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .products {
-        background-image: url("../images/bg-products@2x.png");
+        background-image: url("../images/produkt-bg@2x.png");
     }
+}
+
+.products__container {
+    max-width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 .products__suptitle {
@@ -41,7 +45,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 1.3;
+    line-height: 38px;
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -53,7 +57,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .products {
         padding-top: 60px;
         padding-bottom: 82px;
-        background-image: url("../images/bg-products.png");
+        background-image: url("../images/produkt-bg.png");
     }
 }
 
@@ -62,7 +66,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .products {
-        background-image: url("../images/bg-products@2x.png");
+        background-image: url("../images/produkt-bg@2x.png");
     }
 }
 
@@ -87,15 +91,16 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .products {
         padding-top: 60px;
         padding-bottom: 82px;
-        background-image: url("../images/bg-products.png");
+        background-image: url("../images/produkt-bg.png");
     }
 }
+
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
 screen and (min-resolution: 192dpi) and (min-width: 1200px),
 screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .products {
-        background-image: url("../images/bg-products@2x.png");
+        background-image: url("../images/produkt-bg@2x.png");
     }
 }
 
